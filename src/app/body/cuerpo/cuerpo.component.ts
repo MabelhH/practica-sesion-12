@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./cuerpo.component.css']
 })
 export class CuerpoComponent {
+ mostrar:boolean=false
+ mensage:string='';
+ mensage_contacto:string='mostrar';
 
+ mostrarocultar(){
+  if(this.mostrar){
+    this.mostrar=false;
+    this.mensage_contacto='mostrar';
+  }else{
+    
+  }
+ }
 }

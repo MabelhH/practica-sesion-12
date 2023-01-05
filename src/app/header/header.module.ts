@@ -10,6 +10,9 @@ import { InicioComponent } from './inicio/inicio.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports:[
+    InicioComponent
   ]
 })
 export class HeaderModule { }

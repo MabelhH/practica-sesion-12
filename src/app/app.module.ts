@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CuerpoComponent } from './body/cuerpo/cuerpo.component';
 import { FinalComponent } from './body/final/final.component';
+import { HeaderModule } from './header/header.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FinalComponent } from './body/final/final.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HeaderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
