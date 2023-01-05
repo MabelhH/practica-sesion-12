@@ -7,16 +7,16 @@ import { Component } from '@angular/core';
 })
 export class CuerpoComponent {
  mostrar:boolean=false
- mensage:string='cel:937375934,Email:clarhunaco23@gmail.com,Locacion:Arequipa-PERU';
+ mensage:string='Cel:937375934, Email:clarhunaco23@gmail.com, Locacion:Arequipa-Peru';
  mensage_contacto:string='mostrar';
 
  mostrarocultar(){
   if(this.mostrar){
     this.mostrar=false;
-    this.mensage_contacto='click para mostrar datos';
+    this.mensage_contacto='CONTACTOS';
   }else{
     this.mostrar=true;
-    this.mensage_contacto='contactos';
+    this.mensage_contacto='';
 
   }
  }
@@ -27,7 +27,7 @@ export class CuerpoComponent {
 
 public valores2:string[]=[
   
-    'tranparencia','libertad','puntualidad','adaptabilidad',
+    'tranparencia','libertad','puntualidad','adaptabilidad','amabilidad'
   
 ]
 
